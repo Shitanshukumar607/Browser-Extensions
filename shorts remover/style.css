@@ -1,0 +1,15 @@
+* {
+  color: white;
+  font-size: 40px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+a{
+    color: blue;
+}

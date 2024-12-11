@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode to YouTube",
+  "description": "Provides a YouTube search link for LeetCode questions",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/logos/16.png",
+      "48": "images/logos/48.png",
+      "64": "images/logos/64.png",
+      "128": "images/logos/128.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://leetcode.com/problems/*"],
+      "js": ["scripts/youtube.js"]
+    },
+    {
+      "matches": ["*://leetcode.com/problem-list/*"],
+      "js": ["scripts/show_tag.js","scripts/colorful_topics.js"]
+    }
+  ]
+}

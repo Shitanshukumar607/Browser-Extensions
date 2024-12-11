@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Playback Speed Control",
+  "description": "Adjust YouTube playback speed using shortcuts.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/logos/16.png",
+      "48": "images/logos/48.png",
+      "64": "images/logos/64.png",
+      "128": "images/logos/128.png"
+    }
+  },
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/watch*"],
+      "css": ["style.css"],
+      "js": ["script.js"]
+    }
+  ]
+}
