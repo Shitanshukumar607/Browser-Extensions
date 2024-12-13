@@ -21,7 +21,3 @@ Welcome to my collection of Chrome extensions designed to make your YouTube expe
 1. Clone this repo:  
    `git clone https://github.com/shitanshukumar607/YouTube-Extensions.git`
 2. Head to Chrome’s extensions page, enable Developer Mode, and load the unpacked extension from the folder you just cloned.
-
-### Contributing:
-
-I’m always open to suggestions, bug fixes, or new ideas! Feel free to fork the repo and send a pull request if you’ve got something to contribute.
