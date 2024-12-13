@@ -16,12 +16,12 @@
   "content_scripts": [
     {
       "matches": ["*://www.youtube.com/*"],
-      "js": ["script.js"]
+      "js": ["script/shortsButtonRemover.js"] 
     },
     {
       "matches": ["*://www.youtube.com/shorts/*"],
       "css": ["style.css"],
-      "js": ["shorts.js"]
+      "js": ["script/shortsBlocker.js"]
     }
   ]
 }
