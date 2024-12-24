@@ -19,8 +19,8 @@
       "js": ["script/shortsButtonRemover.js"] 
     },
     {
-      "matches": ["*://www.youtube.com/shorts/*"],
-      "css": ["style.css"],
+      "matches": ["*://www.youtube.com/*"],
+      "css": ["css/shortsBlocker.css"],
       "js": ["script/shortsBlocker.js"]
     }
   ]
