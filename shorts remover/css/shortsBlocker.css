@@ -1,15 +1,11 @@
-* {
-  color: white;
-  font-size: 40px;
-}
-
-body {
+.blocker-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-a{
-    color: blue;
+.blocker-container * {
+  font-size: 40px;
+  color: white;
 }
